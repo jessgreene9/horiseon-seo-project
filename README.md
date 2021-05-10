@@ -22,6 +22,8 @@ Webpage source codes should be structured in a way that follows HTML semantic st
 
 In refactoring this webpage, all links in the should function correctly. This makes the website more user-friendly and better for the business. In this webpage, the navigation bar was not originally working correctly. Now, when any link in the navigation bar is clicked, a user is brought to that correct section of the webpage.
 
+As an extra step, the images were resized so that they did not take nearly as long to load, thus further optimizing the website. 
+
 
 
 
