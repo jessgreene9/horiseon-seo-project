@@ -16,11 +16,13 @@ SEO Site Optimization exercise
 https://jessgreene9.github.io/horiseon-seo-project/
 
 ## Description
-It is important to provide web accessibility for those with disabilities to be able to access the website. Adding in the correct alternative atributes to photos, so that a person with assistive technology can hover over a photo and text prompt will explain what the photo represents.
+It is very important for businesses to ensure that their websites are easily accesibile for people with disabilites. Coders need to ensure that someone with assistive technology can still understand what images represent by adding alt atributes to the images in the code. 
 
-It was important that a webpage is user friendly. If there is a navigation bar provided, when a topic is clicked on, the page should bring you straight down to that section of the website.
+Webpage source codes should be structured in a way that follows HTML semantic structure and are easy to read for any coder. This means that it is important to also consolidate CSS selectors and properties, organizing them in a way that follows the semantic structure of the HTML elements and includes comments to explain what is happening in each element or section. This also includes making comments on what what one has changed in the code. 
 
-To refactor the webpage so that it follows the semantic structure of the HTML elements and consolidating CSS properties and selectors. Because it was someone elses code, comments of what changes were made and why on both HTML and CSS. It is important to put the elements in a logical structure so that anyone else that reads the code understands it.
+In refactoring this webpage, all links in the should function correctly. This makes the website more user-friendly and better for the business. In this webpage, the navigation bar was not originally working correctly. Now, when any link in the navigation bar is clicked, a user is brought to that correct section of the webpage.
+
+
 
 
 ## Screenshots
@@ -36,5 +38,6 @@ VS Code
 
 
 
-
 ## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
