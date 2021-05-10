@@ -23,8 +23,11 @@ h1 {
     font-size: 48px;
 }
 
+/* styles the class seo to be different color on the website */
 header h1 .seo {
     color: #d9dcd6;
+    border: none;
+    text-decoration: none;
 }
 
 /* changed div to nav so it is calling the correct element */
@@ -47,6 +50,14 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+    display: inline-block;
+}
+
+/* added a hover element so that the links show that they are links when you hover over them */
+a:hover {
+    text-decoration: underline;
+    color:#2589bd;
+    background-color: white;
 }
 
 /* sizes the text in the paragraphs within the sections */
