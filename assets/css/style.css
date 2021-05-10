@@ -8,37 +8,39 @@ body {
     background-color: #d9dcd6;
 }
 
+/* removed the . from header to make it an element instead of a class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    
 }
 
-.header h1 {
+/* removed header */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* changed div to nav so it is calling the correct element */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* changed div to nav */
+header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px;  
 }
 
 a {
@@ -50,8 +52,9 @@ p {
     font-size: 16px;
 }
 
+/* changed the image height to 500px to make the page more visually appealing */
 .hero {
-    height: 800px;
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -75,6 +78,7 @@ p {
     margin-left: 20px;
 }
 
+/* added color to this class to consolidate and deleted the unnecessary classes in the html */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,57 +88,30 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* merged all the benefits h3 stylings to avoid repetition */
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
+  
+}
+/* added a bottom margin to the paragraphs inside the benefits class to create needed spacing between those sections */
+.benefits p {
+    margin-bottom: 30px;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* merged the image classes*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* merged the following classes since they had the same styling */
+.SEO, .online, .social {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,58 +120,26 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* merged all content images to avoid repetition */
+.content img {
+max-height: 200px;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* merged all content h2 stylings into one to avoid repetition */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* removed the . to call the footer element instead of the class */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* removed the . to call the footer element instead of the class */
+footer h2 {
     font-size: 20px;
 }
