@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* removed the . from header to make it an element instead of a class */
+/* removed the . from header to make it call an element instead of a class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,7 +17,7 @@ header {
     
 }
 
-/* removed header */
+/* removed header to simplify */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -37,17 +37,19 @@ nav {
     list-style-type: none;
 }
 
-/* changed div to nav */
+/* changed div to nav to call the correct element */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;  
 }
 
+/* styles the links in the navigation bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sizes the text in the paragraphs within the sections */
 p {
     font-size: 16px;
 }
@@ -62,16 +64,19 @@ p {
     background-position: center;
 }
 
+/* positions the largest blocks in the main section of the webpage to the left side of the page */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* positions the small thinner sections of the page to the right side */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sizes and styles the content class section of the webpage */
 .content {
     width: 75%;
     display: inline-block;
@@ -102,7 +107,7 @@ p {
     margin-bottom: 30px;
 }
 
-/* merged the image classes*/
+/* merged the image classes to avoid repetition*/
 .benefits img {
     display: block;
     margin: 10px auto;
